@@ -1,0 +1,5 @@
+npm install @nuxt/ui
+https://mediaapp-5-w5571626.deta.app/api/music/poster/zkxsux
+
+GlobalEventHandlersEventMap
+HTMLElementTagNameMap 
