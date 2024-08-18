@@ -91,8 +91,8 @@ const updateValue = (e: number) => {
 const changeValue = (e: Event) => {
     let newV = (e.target as HTMLInputElement).valueAsNumber;
     console.log('changeValue', newV);
-    // currentTime.value = newV;
-    // audioRef.value!.currentTime = newV;
+    currentTime.value = newV;
+    audioRef.value!.currentTime = newV;
 }
 
 const { childPause, childPlay } = inject('parentFunc');

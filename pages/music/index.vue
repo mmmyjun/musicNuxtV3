@@ -23,10 +23,10 @@
                                     <div class="song-item-name">{{ item.name }}<span class="song-item-singer text-purple-700 text-xs ml-1">{{ item.artist }}</span></div>
                                 </div>
                                 <div class="row-bottom audio-container h-6 " v-if="currentIndex === index" >
-                                    <MusicAudioPlay class="bTest"
+                                    <TvVideoPlay class="bTest"
                                         v-model="curTime" @update:model-value="timeChange" 
-                                        v-bind="{ url: item.url, play_time: item.play_time }" :url="item.url">
-                                    </MusicAudioPlay>
+                                        v-bind="{ play_time: item.play_time }" :url="item.url">
+                                    </TvVideoPlay>
                                 </div>
                             </div>
                         </div>

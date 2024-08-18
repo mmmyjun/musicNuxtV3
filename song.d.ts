@@ -10,9 +10,6 @@ declare interface SongListType {
     isPlaying?: boolean;
 }
 
-declare type FuncNoParamNoReturn = () => void;
-
-
 declare ResLrcType = {
     lrc: string,
 }
